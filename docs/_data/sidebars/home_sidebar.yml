@@ -12,6 +12,9 @@ entries:
     - output: web,pdf
       title: Hello World
       url: /core
+    - output: web,pdf
+      title: Title
+      url: /02-ruby-hello
     output: web
     title: notebooks
   output: web

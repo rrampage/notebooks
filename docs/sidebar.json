@@ -1,6 +1,7 @@
 {
   "notebooks": {
     "Overview": "/",
-    "Hello World": "/core"
+    "Hello World": "/core",
+    "Title": "/02-ruby-hello"
   }
 }
