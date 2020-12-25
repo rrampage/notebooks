@@ -14,7 +14,10 @@ entries:
       url: /core
     - output: web,pdf
       title: Title
-      url: /02-ruby-hello
+      url: /crypto
+    - output: web,pdf
+      title: Ruby - cryptohack.org challenges
+      url: /02-ruby-challenges
     output: web
     title: notebooks
   output: web

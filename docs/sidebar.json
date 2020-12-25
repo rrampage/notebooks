@@ -2,6 +2,7 @@
   "notebooks": {
     "Overview": "/",
     "Hello World": "/core",
-    "Title": "/02-ruby-hello"
+    "Title": "/crypto",
+    "Ruby - cryptohack.org challenges": "/02-ruby-challenges"
   }
 }
