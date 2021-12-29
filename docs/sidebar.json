@@ -2,7 +2,8 @@
   "notebooks": {
     "Overview": "/",
     "module name here": "core.html",
-    "Title": "crypto.html",
-    "Ruby - cryptohack.org challenges": "02-ruby-challenges.html"
+    "Python - cryptohack.org challenges": "crypto.html",
+    "Ruby - cryptohack.org challenges": "02-ruby-challenges.html",
+    "Hello Go!": "03-golang-hello.html"
   }
 }

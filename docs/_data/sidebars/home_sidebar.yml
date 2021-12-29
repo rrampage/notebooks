@@ -13,11 +13,14 @@ entries:
       title: module name here
       url: core.html
     - output: web,pdf
-      title: Title
+      title: Python - cryptohack.org challenges
       url: crypto.html
     - output: web,pdf
       title: Ruby - cryptohack.org challenges
       url: 02-ruby-challenges.html
+    - output: web,pdf
+      title: Hello Go!
+      url: 03-golang-hello.html
     output: web
     title: notebooks
   output: web
