@@ -1,8 +1,8 @@
 {
   "notebooks": {
     "Overview": "/",
-    "Hello World": "/core",
-    "Title": "/crypto",
-    "Ruby - cryptohack.org challenges": "/02-ruby-challenges"
+    "Hello World!": "core.html",
+    "Title": "crypto.html",
+    "Ruby - cryptohack.org challenges": "02-ruby-challenges.html"
   }
 }

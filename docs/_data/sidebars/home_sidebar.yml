@@ -10,14 +10,14 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: Hello World
-      url: /core
+      title: Hello World!
+      url: core.html
     - output: web,pdf
       title: Title
-      url: /crypto
+      url: crypto.html
     - output: web,pdf
       title: Ruby - cryptohack.org challenges
-      url: /02-ruby-challenges
+      url: 02-ruby-challenges.html
     output: web
     title: notebooks
   output: web

@@ -6,6 +6,8 @@ index = {}
 
 modules = []
 
+doc_url = "https://rrampage.github.io/notebooks/"
+
 git_url = "https://github.com/rrampage/notebooks/tree/master/"
 
 def custom_doc_links(name): return None
