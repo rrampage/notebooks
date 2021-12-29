@@ -1,7 +1,7 @@
 {
   "notebooks": {
     "Overview": "/",
-    "Hello World!": "core.html",
+    "module name here": "core.html",
     "Title": "crypto.html",
     "Ruby - cryptohack.org challenges": "02-ruby-challenges.html"
   }

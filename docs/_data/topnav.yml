@@ -1,8 +1,8 @@
 topnav:
 - title: Topnav
   items:
-    - title: GitHub
-      external_url: https://github.com/rrampage/notebooks
+    - title: github
+      external_url: https://github.com/rrampage/notebooks/tree/master/
 
 #Topnav dropdowns
 topnav_dropdowns:
