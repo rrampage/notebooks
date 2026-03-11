@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notebooks"
+dynamic = ["version"]
+description = "A description of your project"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "Apache-2.0"}
+authors = [{name = "Raunak Ramakrishnan", email = "example@example.com"}]
+keywords = ['some', 'keywords']
+classifiers = ["Natural Language :: English", "Intended Audience :: Developers", "Development Status :: 2 - Pre-Alpha", "Programming Language :: Python :: 3", "Programming Language :: Python :: 3 :: Only"]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/rrampage/notebooks/tree/master/"
+Documentation = "https://rrampage.github.io/notebooks/"
+
+[project.entry-points.nbdev]
+notebooks = "notebooks._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "notebooks.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["notebooks"]
+
+[tool.nbdev]
+nbs_path = '.'
+doc_path = 'docs'
+branch = 'master'
+recursive = false
+title = 'notebooks'
