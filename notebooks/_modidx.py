@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'master',
                 'doc_host': 'https://rrampage.github.io',
                 'git_url': 'https://github.com/rrampage/notebooks/tree/master',
                 'lib_path': 'notebooks'},
-  'syms': {'notebooks.core': {}, 'notebooks.crypto_1': {}}}
+  'syms': { 'notebooks.core': {},
+            'notebooks.crypto_1': {},
+            'notebooks.sample': {'notebooks.sample.hello_world': ('sample.html#hello_world', 'notebooks/sample.py')}}}
