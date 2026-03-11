@@ -25,9 +25,6 @@ jobs:
         echo "Check that strip out was unnecessary"
         git status -s # display the status to see which nbs need cleaning up
         if [ -n "$(git status -uno -s)" ]; then echo -e "!!! Detected unstripped out notebooks\n!!!Remember to run nbdev-install-hooks"; false; fi
-        #- name: Check if there is no diff library/notebooks
-        #run: |
-        #if [ -n "$(nbdev-diff-nbs)" ]; then echo -e "!!! Detected difference between the notebooks and the library"; false; fi
     - name: Run tests
       run: |
         #nbdev-test
